@@ -1,0 +1,34 @@
+{
+  "name": "q2-uux-cli",
+  "version": "1.0.0",
+  "description": "allows user to move crap around to do other things",
+  "main": "index.js",
+  "bin": {
+    "uux": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryandjones14/q2-uux-cli.git"
+  },
+  "author": "ryan jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ryandjones14/q2-uux-cli/issues"
+  },
+  "homepage": "https://github.com/ryandjones14/q2-uux-cli#readme",
+  "dependencies": {
+    "yargs": "^12.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^12.0.0-alpha.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^3.1.0"
+  }
+}
